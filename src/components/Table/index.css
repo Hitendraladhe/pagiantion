@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.con{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: black;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #111010;
+    font-size: 0.3rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.table{
+    height: 70vh;
+    width: 80vw;
+    border: 1px  #111010  solid;
+    box-shadow: 0px 0px 5px #111010;
+}
+tr{
+    border: 0.5px  #111010  solid;
+}
+th{
+    font-size: 0.3rem;
+    color: black;
+    border: 0.5px  #111010  solid;
+}
+td{
+    font-size: 0.3rem;
+    color: black; 
+    border-right: 0.5px  #111010  solid;
+    border-bottom: 0.5px  #111010  solid;;
+}
+
+.img{
+    height: 0.6rem;
+    width: 0.6rem;
+    border-radius: 50%;
+}
+
+input{
+    width: 80px;
+    height: 15px;
+}
+
+option{
+    width: 100px;
+    height: 20px; 
+}
+
+.edtBtn{
+    height: 0.8rem;
+    width: 0.8rem;
+    font-size: 0.3rem;
+    background-color: green;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.dltBtn{
+    height: 0.8rem;
+    width: 0.8rem;
+    font-size: 0.2rem;
+    border: 1px goldenrod solid;
+    box-shadow: 0px 0px 5px black;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.addBtn{
+    height: 1rem;
+    width: 2rem;
+    font-size: 0.4rem;
+    border: none;
+    background-color: violet;
+    color: #fff;
+    margin-right: 20rem;
+    margin-bottom: 0.2rem;
+}
